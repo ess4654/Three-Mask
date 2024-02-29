@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Suspense } from 'react'
+import { Canvas } from '@react-three/fiber'
+import { Mask, Loader } from "./components"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Canvas style={{background: "grey"}}>
+      <ambientLight intensity={Math.PI / 2} />
+      <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} decay={0} intensity={Math.PI} />
+      <pointLight position={[-10, -10, -10]} decay={0} intensity={Math.PI} />
+      <Suspense fallback={<Loader />}>
+        <Mask position={[-1.2, 0, 0]} />
+      </Suspense>
+  </Canvas>
   );
 }
 
