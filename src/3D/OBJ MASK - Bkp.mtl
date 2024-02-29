@@ -1,0 +1,204 @@
+# Blender MTL File: 'MASK BLEND.blend'
+# Material Count: 15
+
+newmtl ACCESSORY
+Ns 440.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.873555 0.873555 0.873555
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump ./textures/Substance_ACCESSORY_Normal.png
+map_Kd ./textures/Substance_ACCESSORY_BaseColor.png
+map_Ns ./textures/Substance_ACCESSORY_Roughness.png
+refl ./textures/Substance_ACCESSORY_Metallic.png
+
+newmtl AIR_PIPE
+Ns 459.183695
+Ka 1.000000 1.000000 1.000000
+Kd 0.145667 0.145667 0.145667
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump ./textures/Substance_AIR PIPE_Normal.png
+map_Kd ./textures/Substance_AIR PIPE_BaseColor.png
+map_Ns ./textures/Substance_AIR PIPE_Roughness.png
+refl ./textures/Substance_AIR PIPE_Metallic.png
+
+newmtl AIR_PIPE_TWO
+Ns 48.501279
+Ka 1.000000 1.000000 1.000000
+Kd 0.216099 0.216099 0.216099
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump ./textures/Substance_AIR PIPE TWO_Normal.png
+map_Kd ./textures/Substance_AIR PIPE TWO_BaseColor.png
+map_Ns ./textures/Substance_AIR PIPE TWO_Roughness.png
+refl ./textures/Substance_AIR PIPE TWO_Metallic.png
+
+newmtl BACK_HOLDER
+Ns 35.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl BELT
+Ns 35.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump ./textures/Substance_BELT_Normal.png
+map_Kd ./textures/Substance_BELT_BaseColor.png
+map_Ns ./textures/Substance_BELT_Roughness.png
+refl ./textures/Substance_BELT_Metallic.png
+
+newmtl BOMB
+Ns 440.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.873555 0.873555 0.873555
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump ./textures/Substance_BOMB_Normal.png
+map_Kd ./textures/Substance_BOMB_BaseColor.png
+map_Ns ./textures/Substance_BOMB_Roughness.png
+refl ./textures/Substance_BOMB_Metallic.png
+
+newmtl EMISSION
+Ns 323.999994
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl EYES_ONE
+Ns 440.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.873555 0.873555 0.873555
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 8.900000 ./textures/Substance_EYES ONE_Normal.png
+map_Kd ./textures/Substance_EYES ONE_BaseColor.png
+map_Ns ./textures/Substance_EYES ONE_Roughness.png
+refl ./textures/Substance_EYES ONE_Metallic.png
+
+newmtl EYES_TWO
+Ns 459.183695
+Ka 1.000000 1.000000 1.000000
+Kd 0.145667 0.145667 0.145667
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump ./textures/Substance_EYES TWO_Normal.png
+map_Kd ./textures/Substance_EYES TWO_BaseColor.png
+map_Ns ./textures/Substance_EYES TWO_Roughness.png
+refl ./textures/Substance_EYES TWO_Metallic.png
+
+newmtl HOLDER
+Ns 440.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.873555 0.873555 0.873555
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump ./textures/Substance_HOLDER_Normal.png
+map_Kd ./textures/Substance_HOLDER_BaseColor.png
+map_Ns ./textures/Substance_HOLDER_Roughness.png
+refl ./textures/Substance_HOLDER_Metallic.png
+
+newmtl MASK_ONE
+Ns 459.183695
+Ka 1.000000 1.000000 1.000000
+Kd 0.145667 0.145667 0.145667
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 5.000000 ./textures/Substance_MASK ONE_Normal.png
+map_Kd ./textures/Substance_MASK ONE_BaseColor.png
+map_Ns ./textures/Substance_MASK ONE_Roughness.png
+refl ./textures/Substance_MASK ONE_Metallic.png
+
+newmtl MASK_TWO
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.063722 0.000000 0.001832
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 10.000000 ./textures/Substance_MASK TWO_Normal.png
+map_Kd ./textures/Substance_MASK TWO_BaseColor.png
+map_Ns ./textures/Substance_MASK TWO_Roughness.png
+refl ./textures/Substance_MASK TWO_Metallic.png
+
+newmtl TUBE
+Ns 35.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump -bm 10.000000 ./textures/Substance_TUBE_Normal.png
+map_Kd ./textures/Substance_TUBE_BaseColor.png
+map_Ns ./textures/Substance_TUBE_Roughness.png
+refl ./textures/Substance_TUBE_Metallic.png
+
+newmtl TUBE_CON
+Ns 440.999985
+Ka 1.000000 1.000000 1.000000
+Kd 0.873555 0.873555 0.873555
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump -bm 10.000000 ./textures/Substance_TUBE CON_Normal.png
+map_Kd ./textures/Substance_TUBE CON_BaseColor.png
+map_Ns ./textures/Substance_TUBE CON_Roughness.png
+refl ./textures/Substance_TUBE CON_Metallic.png
+
+newmtl TUBE_TWO
+Ns 35.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump ./textures/Substance_TUBE TWO_Normal.png
+map_Kd ./textures/Substance_TUBE TWO_BaseColor.png
+map_Ns ./textures/Substance_TUBE TWO_Roughness.png
+refl ./textures/Substance_TUBE TWO_Metallic.png

@@ -1,34 +1,39 @@
 import React, { useRef } from 'react'
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
+import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader'
 import { useLoader } from '@react-three/fiber'
 import { useFrame } from '@react-three/fiber'
+import { Euler } from 'three'
 
+import { withNextTickLoading } from './loaders/withNextTickLoading'
 const mask = require('../3D/OBJ MASK.obj')
-const mat = require('../3D/OBJ MASK.mtl')
+const material = require('../3D/OBJ MASK.mtl')
 
 function Mask(props)
 {
-    const obj = useLoader(OBJLoader, mask)
     const ref = useRef()
+    const mat = useLoader(withNextTickLoading(MTLLoader), material)
+    const obj = useLoader(OBJLoader, mask, loader => {
+        mat.preload()
+        loader.setMaterials(mat)
+    })
 
-    useFrame((state, delta) => (ref.current.rotation.x += delta));
+    //update
+    useFrame((state, delta) => {
+        let rot = props.rot ?? new Euler(0,0,0);
+        ref.current.rotation.x = rot.x;
+        ref.current.rotation.y = rot.y;
+        ref.current.rotation.z = rot.z;
+    })
    
     return (
         <primitive 
             ref={ref}
-            scale={1}
-            object={obj}>
-
-                <meshStandardMaterial mate />
-        </primitive>
-        // <mesh
-        //     {...props}
-        //     ref={ref}
-        //     scale={1}>
-        //     <boxGeometry args={[1, 1, 1]} />
-        //     <meshStandardMaterial color={'hotpink'} />
-        // </mesh>
-    );
+            scale={props.scale ?? 1}
+            object={obj}
+            position={props.position ?? [0,0,0]}
+        />
+    )
 }
 
 export default Mask;
