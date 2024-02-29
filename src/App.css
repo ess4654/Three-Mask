@@ -1,4 +1,5 @@
-#root canvas
+*
 {
-  background: grey;
+  overflow: hidden;
+  cursor: pointer;
 }
