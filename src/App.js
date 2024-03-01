@@ -1,4 +1,4 @@
-import { useState, Suspense, useRef } from 'react'
+import { useState, Suspense, useRef, useEffect } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Euler } from 'three'
 import Webcam from 'react-webcam'
@@ -23,7 +23,8 @@ const videoStyle = {
   position: "fixed",
   zIndex: 2,
   top: 0,
-  left: 0
+  left: 0,
+  background: 'black'
 }
 
 function App() {
@@ -32,6 +33,11 @@ function App() {
   const [loaded, setLoaded] = useState(false)
   const [width, height] = useWindowSize();
   const canvasRef = useRef();
+  const videoRef = useRef();
+
+  useEffect(() => {
+    //console.log(videoRef)
+  }, [videoRef]);
 
   const handleVideoLoad = async (videoNode) => {
     const video = videoNode.target;
@@ -54,6 +60,8 @@ function App() {
 
   return (<>
     <Webcam
+      ref={videoRef}
+      audio={false}
       width={inputResolution.width}
       height={inputResolution.height}
       style={{...videoStyle, visibility: !videoOn ? "hidden" : "visible"}}
