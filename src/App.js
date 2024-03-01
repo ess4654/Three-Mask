@@ -1,10 +1,14 @@
 import { useState, Suspense, useRef } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Euler } from 'three'
-import Webcam from "react-webcam"
+import Webcam from 'react-webcam'
+import '@tensorflow/tfjs'
+import '@tensorflow/tfjs-backend-webgl'
+import '@mediapipe/face_mesh'
 
 import { Mask, Loader } from "./components"
 import { useWindowSize } from "./utils/useWindowSize"
+import { runDetector } from "./utils/detector"
 
 const inputResolution = {
   width: 730 / 4,
@@ -33,9 +37,14 @@ function App() {
     const video = videoNode.target;
     if (video.readyState !== 4) return;
     if (loaded) return;
-    //await runDetector(video, canvasRef.current, (data) => {
-    //  console.log(data)
-    //});
+    await runDetector(video, canvasRef.current, (data) => {
+      if(!data) return;
+      //console.log(data.xDistance / data.zDistance - data.zDistance);
+      let x = (data.yaw / 360) * 1.0 * Math.PI - Math.PI / 4;
+      let y = (data.turn / 360) * 1.0 * Math.PI - Math.PI / 4;
+      let z = 0;
+      setRotation(new Euler(x, y, z))
+    });
     setLoaded(true);
   }
   
@@ -52,7 +61,7 @@ function App() {
       onLoadedData={handleVideoLoad}
     />
 
-    <Canvas ref={canvasRef} style={{background: "linear-gradient(#0094FF, #51B6FF)"}}>
+    <Canvas style={{background: "linear-gradient(#0094FF, #51B6FF)"}}>
       <ambientLight intensity={Math.PI / 2} />
       <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} decay={0} intensity={Math.PI} />
       <pointLight position={[-10, -10, -10]} decay={0} intensity={Math.PI} />
@@ -65,6 +74,13 @@ function App() {
       Show Camera <input type='checkbox' onChange={toggleVideo} checked={videoOn} style={{width: 15, height: 15, marginTop: 15}} />
       <span style={{display: "none"}}>Window size: {width} x {height}</span>
     </h2>
+
+    {/* <canvas
+      ref={canvasRef}
+      width={inputResolution.width}
+      height={inputResolution.height}
+      style={{ position: "absolute", border: "1px solid black" }}
+    /> */}
   </>);
 }
 
