@@ -1,17 +1,41 @@
 {
   "files": {
-    "main.css": "/Three-Mask/static/css/main.3f853dfd.css",
-    "main.js": "/Three-Mask/static/js/main.1c754a12.js",
-    "static/js/453.45c832ec.chunk.js": "/Three-Mask/static/js/453.45c832ec.chunk.js",
-    "static/media/OBJ MASK.obj": "/Three-Mask/static/media/OBJ MASK.30333fe1c0e1194daa79.obj",
-    "static/media/OBJ MASK.mtl": "/Three-Mask/static/media/OBJ MASK.4ae24aa8c3e595897ad3.mtl",
-    "index.html": "/Three-Mask/index.html",
-    "main.3f853dfd.css.map": "/Three-Mask/static/css/main.3f853dfd.css.map",
-    "main.1c754a12.js.map": "/Three-Mask/static/js/main.1c754a12.js.map",
-    "453.45c832ec.chunk.js.map": "/Three-Mask/static/js/453.45c832ec.chunk.js.map"
+    "main.css": "./static/css/main.3f853dfd.css",
+    "main.js": "./static/js/main.820f2109.js",
+    "static/js/453.bc7eca0b.chunk.js": "./static/js/453.bc7eca0b.chunk.js",
+    "static/media/OBJ MASK.obj": "./static/media/OBJ MASK.30333fe1c0e1194daa79.obj",
+    "static/media/Substance_BOMB_BaseColor.png": "./static/media/Substance_BOMB_BaseColor.9a33291de82b28df5085.png",
+    "static/media/Substance_MASK ONE_Roughness.png": "./static/media/Substance_MASK ONE_Roughness.068146676d826f0f7ddf.png",
+    "static/media/Substance_BOMB_Roughness.png": "./static/media/Substance_BOMB_Roughness.63eef24a1ddc30b7428f.png",
+    "static/media/Substance_BELT_Roughness.png": "./static/media/Substance_BELT_Roughness.5b7c91f2b204cd027223.png",
+    "static/media/Substance_HOLDER_Normal.png": "./static/media/Substance_HOLDER_Normal.75379d67283e142594ef.png",
+    "static/media/Substance_BOMB_Metallic.png": "./static/media/Substance_BOMB_Metallic.af3be5b141a74f185739.png",
+    "static/media/Substance_EYES ONE_Normal.png": "./static/media/Substance_EYES ONE_Normal.47fa02fff5de73ec8752.png",
+    "static/media/Substance_EYES ONE_Roughness.png": "./static/media/Substance_EYES ONE_Roughness.d75e9577ac5fff9312e1.png",
+    "static/media/Substance_TUBE CON_Normal.png": "./static/media/Substance_TUBE CON_Normal.c41797e2887bbf45fa95.png",
+    "static/media/Substance_AIR PIPE_BaseColor.png": "./static/media/Substance_AIR PIPE_BaseColor.9db3018841b9dbd0f6f5.png",
+    "static/media/Substance_TUBE CON_Roughness.png": "./static/media/Substance_TUBE CON_Roughness.dc45f8505161d7621ebe.png",
+    "static/media/Substance_AIR PIPE_Roughness.png": "./static/media/Substance_AIR PIPE_Roughness.137c0ec853ec336c7991.png",
+    "static/media/Substance_HOLDER_Roughness.png": "./static/media/Substance_HOLDER_Roughness.4e0262435c36328d5ca7.png",
+    "static/media/Substance_MASK ONE_Normal.png": "./static/media/Substance_MASK ONE_Normal.9622dc75b53f839a1b4e.png",
+    "static/media/Substance_AIR PIPE_Normal.png": "./static/media/Substance_AIR PIPE_Normal.d29d0836815219811b92.png",
+    "static/media/Substance_TUBE_BaseColor.png": "./static/media/Substance_TUBE_BaseColor.bbcdaf15b3a34cbcbd63.png",
+    "static/media/Substance_EYES ONE_BaseColor.png": "./static/media/Substance_EYES ONE_BaseColor.0bd0d7928598f57e7e59.png",
+    "static/media/Substance_BELT_Normal.png": "./static/media/Substance_BELT_Normal.a89db431fd8d92b1e3f3.png",
+    "static/media/Substance_BOMB_Normal.png": "./static/media/Substance_BOMB_Normal.1c7991f25d65762e07ab.png",
+    "static/media/Substance_MASK ONE_BaseColor.png": "./static/media/Substance_MASK ONE_BaseColor.b0ef09e0593bc1e0b9cc.png",
+    "static/media/Substance_HOLDER_BaseColor.png": "./static/media/Substance_HOLDER_BaseColor.a80616f92e0865ba0c9c.png",
+    "static/media/Substance_TUBE CON_BaseColor.png": "./static/media/Substance_TUBE CON_BaseColor.a6a2096e67a568b22aaf.png",
+    "static/media/Substance_TUBE_Roughness.png": "./static/media/Substance_TUBE_Roughness.f76ebfa99b8185957c94.png",
+    "static/media/Substance_AIR PIPE_Metallic.png": "./static/media/Substance_AIR PIPE_Metallic.fbb892eab348fcf146ad.png",
+    "static/media/OBJ MASK.mtl": "./static/media/OBJ MASK.edb22d0338ba61aaaf98.mtl",
+    "index.html": "./index.html",
+    "main.3f853dfd.css.map": "./static/css/main.3f853dfd.css.map",
+    "main.820f2109.js.map": "./static/js/main.820f2109.js.map",
+    "453.bc7eca0b.chunk.js.map": "./static/js/453.bc7eca0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f853dfd.css",
-    "static/js/main.1c754a12.js"
+    "static/js/main.820f2109.js"
   ]
 }

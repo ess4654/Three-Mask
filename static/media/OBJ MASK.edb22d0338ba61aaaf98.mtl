@@ -1,0 +1,118 @@
+# Blender 3.4.1 MTL File: 'None'
+# www.blender.org
+
+newmtl AIR_PIPE
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Substance_AIR PIPE_BaseColor.png
+map_Ns Substance_AIR PIPE_Roughness.png
+map_refl Substance_AIR PIPE_Metallic.png
+map_Bump Substance_AIR PIPE_Normal.png
+
+newmtl BACK_HOLDER
+Ns 36.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl BELT
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Substance_BELT_BaseColor.png
+map_Ns Substance_BELT_Roughness.png
+map_refl Substance_BELT_Metallic.png
+map_Bump Substance_BELT_Normal.png
+
+newmtl BOMB
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Substance_BOMB_BaseColor.png
+map_Ns Substance_BOMB_Roughness.png
+map_refl Substance_BOMB_Metallic.png
+map_Bump Substance_BOMB_Normal.png
+
+newmtl EMISSION
+Ns 324.000031
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl EYES_ONE
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Substance_EYES ONE_BaseColor.png
+map_Ns Substance_EYES ONE_Roughness.png
+map_refl Substance_EYES ONE_Metallic.png
+map_Bump -bm 8.900000 Substance_EYES ONE_Normal.png
+
+newmtl HOLDER
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Substance_HOLDER_BaseColor.png
+map_Ns Substance_HOLDER_Roughness.png
+map_refl Substance_HOLDER_Metallic.png
+map_Bump Substance_HOLDER_Normal.png
+
+newmtl MASK_ONE
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Substance_MASK ONE_BaseColor.png
+map_Ns Substance_MASK ONE_Roughness.png
+map_refl Substance_MASK ONE_Metallic.png
+map_Bump -bm 5.000000 Substance_MASK ONE_Normal.png
+
+newmtl TUBE
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Substance_TUBE_BaseColor.png
+map_Ns Substance_TUBE_Roughness.png
+map_refl Substance_TUBE_Metallic.png
+map_Bump -bm 10.000000 Substance_TUBE_Normal.png
+
+newmtl TUBE_CON
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd Substance_TUBE CON_BaseColor.png
+map_Ns Substance_TUBE CON_Roughness.png
+map_refl Substance_TUBE CON_Metallic.png
+map_Bump -bm 10.000000 Substance_TUBE CON_Normal.png
